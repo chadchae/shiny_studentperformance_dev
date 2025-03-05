@@ -1,5 +1,6 @@
 library(dplyr)
-data <-read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQgT6S0zjaknG4uv4VwfK1SgGfibegwt6QknB7fg9uyG5OAwXdoJrPc5OHPnhUubh-sExaQc-Xl8F11/pub?gid=606080340&single=true&output=csv")
+data <-read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRdPz6D3keSL9E6toKu-AR1dmdL_yy00kX3GI41okczGCNegTY6FFKO7RIoEhnTDAYG_irvzf9lVQIb/pub?output=csv")
+
 data <- data %>% replace(is.na(.), 0)
 whatifdata <- data
 #is.na(data)
