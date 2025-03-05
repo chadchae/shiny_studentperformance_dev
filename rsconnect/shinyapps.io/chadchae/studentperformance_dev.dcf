@@ -1,0 +1,12 @@
+name: studentperformance_dev
+title: studentperformance_dev
+username: chadchae
+account: chadchae
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14161016
+bundleId: 9892997
+url: https://chadchae.shinyapps.io/studentperformance_dev/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
